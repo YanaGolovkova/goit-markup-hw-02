@@ -1,0 +1,55 @@
+/* основной цвет текста #757575 */
+/*  цвет заголовков #212121 */
+/* цвет героя #ffffff *|
+/* акцент #2196F3 */
+/* фон героя и футера #2F303A */
+/* фон членов команды #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* навигация */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--title-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+/* Заголовки */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Кнопка */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
