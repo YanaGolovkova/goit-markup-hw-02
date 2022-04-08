@@ -11,21 +11,28 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-/* Шрифты */
-body {
-  font-family: Roboto, Tahoma, sans-serif;
-}
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: Roboto, Tahoma, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .list {
   list-style: none;
 }
 /* навигация */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -39,6 +46,12 @@ body {
 
 .auth-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -48,12 +61,63 @@ body {
 
 /* Герой */
 
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--title-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 /* Заголовки */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
+
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.avatar {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
 /* Кнопка */
 .button {
+  font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button.primari {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
 }
