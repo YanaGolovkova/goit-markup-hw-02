@@ -11,6 +11,10 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
+/* Шрифты */
+body {
+  font-family: Roboto, Tahoma, sans-serif;
+}
 
 body {
   background-color: var(--primary-white-color);
