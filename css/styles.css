@@ -147,6 +147,25 @@ body {
 .section-comands {
   background-color: #f5f4fa;
 }
+
+/* ----------------ABOUT-------------------- */
+.about {
+}
+.about-examples {
+}
+.about-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.about-title {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+
 /*-------------- Кнопка --------------*/
 .button {
   font-family: inherit;
