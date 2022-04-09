@@ -24,7 +24,49 @@ body {
 .list {
   list-style: none;
 }
-/* навигация */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*-------------- Логотип---------------- */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo .title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo .second-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+
+/*------------ навигация------------ */
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -45,7 +87,7 @@ body {
 }
 
 .auth-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +101,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Герой */
+/* -----------Герой------------------- */
 
 .hero-title {
   color: var(--primary-white-color);
@@ -72,7 +114,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* Заголовки */
+/* -------------Заголовки---------------- */
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -100,8 +142,12 @@ body {
   line-height: 1.18;
   text-align: center;
 }
+/*-------------- Наша команда------------------- */
 
-/* Кнопка */
+.section-comands {
+  background-color: #f5f4fa;
+}
+/*-------------- Кнопка --------------*/
 .button {
   font-family: inherit;
   color: var(--primary-white-color);
@@ -115,9 +161,32 @@ body {
 .button.primari {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+/*---------------- Футер------------------ */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer .address {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+  font-style: normal;
+}
+
+.footer .list {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
