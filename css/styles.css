@@ -167,6 +167,10 @@ body {
 }
 
 /*-------------- Кнопка --------------*/
+
+.filters {
+  list-style: none;
+}
 .button {
   font-family: inherit;
   color: var(--primary-white-color);
@@ -177,16 +181,33 @@ body {
   line-height: 1.62;
 }
 
+/* .buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+} */
+
 .button.primari {
+  font-weight: 500;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
 
 .button.secondary {
+  font-weight: 500;
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
   cursor: pointer;
+}
+
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 /*---------------- Футер------------------ */
@@ -208,4 +229,24 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.navi {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.net {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
